@@ -96,9 +96,6 @@ button:hover {
     opacity: 0.9;
     animation: float 2s ease-in-out infinite;
 }
-h3{
-  line-height: 30px;
-}
 
 /* Animation for flowers */
 @keyframes fadeIn {

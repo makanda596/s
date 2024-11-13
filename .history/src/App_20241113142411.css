@@ -1,0 +1,50 @@
+/* Center all content vertically and horizontally */
+body, html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Style container for each page */
+.container {
+    text-align: center;
+    padding: 20px;
+    max-width: 400px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Style for main headings */
+h1, h2 {
+    color: #ff6b6b;
+    margin-bottom: 10px;
+}
+
+/* Subtext styles */
+p {
+    color: #333;
+    font-size: 1.1em;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #ff6b6b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e65555;
+}

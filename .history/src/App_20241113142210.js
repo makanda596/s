@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Home from './Home';
 import Gift from './Gift';
-import "./App.css"
 import Dinner from './Dinner';
 import Proposal from './Proposal';
 
